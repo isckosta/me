@@ -3,263 +3,138 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Israel Costa
+  tagline: Analista de Sistemas / Desenvolvedor PHP/Laravel
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: isckosta@live.com
+  phone: (99) 98142 - 6655
+  timezone: America/Sao_Paulo Timezone
+  citizenship:
+  instagram: iscanalista
+  linkedin: isckosta
+  github: isckosta
+  telegram: csikosta
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Linguagens
+    info:
+      - idiom: Português
+        level: Nativo
 
-        - idiom: French
-          level: Professional
+      - idiom: Inglês
+        level: Intermediário
 
-        - idiom: Spanish
-          level: Professional
+  interests:
+    title: Interesses
+    info:
+      - item: Engenharia de Software
+        link:
+      
+      - item: Desenvolvimento Web
+        link:
+      
+      - item: UML e Documentação
+        link:
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+      - item: Música
+        link:
 
-        - item: Snowboarding
-          link:
+      - item: Café
+        link:
 
-        - item: Cooking
-          link:
+      - item: Caminhadas
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Perfil Profissional
+  summary: |
+    Possuo quase dois anos de experiência como Analista de Sistemas na área de Tecnologia da Informação, com foco principal em desenvolvimento PHP. Minha trajetória inclui trabalhar com sistemas legados, o que me proporcionou ampla familiaridade com a linguagem e uma aversão saudável por códigos mal estruturados. Tenho forte expertise em PHP e Laravel, com destaque na participação de um projeto de integração e administração escolar.
+
+    Minhas realizações incluem a construção de um sistema de reserva de horários para quadras esportivas, demonstrando minha capacidade de lidar com soluções práticas e desafios tecnológicos. Almejo evoluir minha carreira para me tornar um Engenheiro de Software, com enfoque na documentação de projetos, enquanto também busco a expertise de um Full Stack Developer. Tenho ambição de dominar as principais linguagens para web e mobile, como PHP/Laravel, Javascript, Flutter e React Native.
+
+    Estou comprometido com a aprendizagem constante e em aplicar minhas habilidades em projetos estimulantes que ampliem meu conhecimento e impacto no mundo do desenvolvimento de software.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+  title: Educação
+  info:
+    - degree: Graduado em Análise e Desenvolvimento de Sistemas
+      university: Unifacema - Centro Universitário de Ciências e Tecnologia do Maranhão
+      time: 2012 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiências
+  info:
+    - role: Desenvolvedor PHP/Laravel
+      time: 2021 - Atual
+      company: IG7 Sistemas & Tecnologia
+      details: |
+        Como Desenvolvedor PHP/Laravel na IG7 Sistemas & Tecnologia, sou responsável por uma variedade de atividades essenciais para aprimorar a eficiência e a qualidade do Sistema de Integração, Planejamento e Administração Escolar (SIPAE) e contribuir para o sucesso geral da equipe de desenvolvimento. Minhas principais responsabilidades incluem:
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
+        - Desenvolver novas funcionalidades para o SIPAE, atendendo às demandas dos usuários e melhorando a experiência do usuário.
+        - Identificar e corrigir problemas decorrentes de códigos mal escritos, garantindo a estabilidade e o desempenho do sistema.
+        - Criar novos módulos que expandem as capacidades do SIPAE, incluindo a análise de requisitos, o desenvolvimento de fluxos de trabalho e a implementação de funcionalidades-chave.
+        - Utilizar a linguagem SQL para criar relatórios que fornecem informações valiosas para a administração escolar e a tomada de decisões estratégicas.
+        - Iniciar a nova versão do SIPAE utilizando o Laravel Framework, abraçando os desafios de liderar o projeto desde o início.
+        - Refatorar códigos potencialmente perigosos, aumentando a segurança do sistema e protegendo contra ameaças como injeção SQL.
+        - Manter-se atualizado sobre as melhores práticas de desenvolvimento PHP/Laravel, padrões de projeto e tendências tecnológicas através de estudos ativos e análise de códigos.
+        - Minha abordagem focada na qualidade, segurança e aprimoramento contínuo permitiu contribuições significativas para o SIPAE e o sucesso geral da IG7 Sistemas & Tecnologia. Além disso, minha capacidade de liderar projetos e trabalhar de forma independente me permitiu assumir a responsabilidade de um projeto de grande escala, que está em andamento.
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+  title: Projetos
+  intro: >
+    Alguns dos meus projetos pessoais e profissionais.
+  assignments:
+    - title: ArenaBook
+      link: "https://arenadorei.club/"
+      tagline: "Este projeto envolveu o desenvolvimento de um inovador Sistema de Reservas de Horários de Quadras Esportivas para atender às necessidades de um cliente. Construído utilizando a robusta combinação de tecnologias PHP/Laravel com PostgreSQL e a API Pix da Efí (antiga Gerencianet), o sistema proporcionou uma experiência moderna e eficiente para os usuários interessados em reservar horários de quadras esportivas."
 skills:
-    title: Skills &amp; Proficiency
+  title: Habilidades & proficiências
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: PHP
+      level: 65%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Laravel
+      level: 60%
 
-      - name: Angular
-        level: 98%
+    - name: Javascript
+      level: 60%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: jQuery
+      level: 60%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Bootstrap
+      level: 65%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: HTML5 & CSS
+      level: 95%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - name: MySQL
+      level: 65%
+
+    - name: PostgreSQL
+      level: 50%
+
+    - name: Git
+      level: 55%
+
+    - name: Linux
+      level: 50%
+
+    - name: Padrões de Projeto
+      level: 30%
+
+    - name: API Rest
+      level: 30%

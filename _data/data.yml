@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Israel Costa
-  tagline: Analista de Sistemas / Estudando Pós-Graudação em Engenharia de Software / Desenvolvedor PHP/Laravel
+  tagline: Analista de Sistemas / Desenvolvedor PHP/Laravel
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -77,6 +77,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
+    - degree: Pós-Graduando em Engenharia de Software
+      university: Faculdade Anhanguera
+      time: 2023 - atual
 experiences:
   title: Experiências
   info:

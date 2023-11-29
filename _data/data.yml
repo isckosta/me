@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Israel Costa
-  tagline: Analista de Sistemas / Desenvolvedor PHP/Laravel
+  tagline: Analista de Sistemas / Estudando Pós-Graudação em Engenharia de Software / Desenvolvedor PHP/Laravel
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -56,7 +56,9 @@ sidebar:
 career-profile:
   title: Perfil Profissional
   summary: |
-    Possuo quase dois anos de experiência como Analista de Sistemas na área de Tecnologia da Informação, com foco principal em desenvolvimento PHP. Minha trajetória inclui trabalhar com sistemas legados, o que me proporcionou ampla familiaridade com a linguagem e uma aversão saudável por códigos mal estruturados. Tenho forte expertise em PHP e Laravel, com destaque na participação de um projeto de integração e administração escolar.
+    Possuo quase três anos de experiência como Analista de Sistemas na área de Tecnologia da Informação, com foco principal em desenvolvimento PHP/Laravel e React. Minha trajetória inclui trabalhar com sistemas legados, o que me proporcionou ampla familiaridade com a linguagem e uma aversão saudável por códigos mal estruturados. 
+    
+    Tenho forte expertise em PHP e Laravel, com destaque na participação de um projeto de integração e administração escolar.
 
     Minhas realizações incluem a construção de um sistema de reserva de horários para quadras esportivas, demonstrando minha capacidade de lidar com soluções práticas e desafios tecnológicos. Almejo evoluir minha carreira para me tornar um Engenheiro de Software, com enfoque na documentação de projetos, enquanto também busco a expertise de um Full Stack Developer. Tenho ambição de dominar as principais linguagens para web e mobile, como PHP/Laravel, Javascript, Flutter e React Native.
 
@@ -105,31 +107,31 @@ skills:
 
   toolset:
     - name: PHP
-      level: 65%
+      level: 85%
 
     - name: Laravel
-      level: 60%
+      level: 75%
 
     - name: Javascript
-      level: 60%
+      level: 80%
 
     - name: jQuery
       level: 60%
 
     - name: Bootstrap
-      level: 65%
+      level: 70%
 
     - name: HTML5 & CSS
       level: 95%
 
     - name: MySQL
-      level: 65%
+      level: 75%
 
     - name: PostgreSQL
       level: 50%
 
     - name: Git
-      level: 55%
+      level: 60%
 
     - name: Linux
       level: 50%
@@ -138,4 +140,4 @@ skills:
       level: 30%
 
     - name: API Rest
-      level: 30%
+      level: 85%
